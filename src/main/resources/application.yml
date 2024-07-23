@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: logpass
+  datasource:
+    url: jdbc:postgresql://localhost:5432/logpass?currentSchema=logpass
+    username: melkii
+    password: postgres
+    driver-class-name: org.postgresql.Driver
